@@ -114,12 +114,6 @@ int main(void){
 	        printf("fork() failed!\n");
 	        return 1;
 	    }
-		/**
-		* After reading user input, the steps are:
-		* (1) fork a child process using fork()
-		* (2) the child process will invoke execvp()
-		* (3) if command not included &, parent will invoke wait()
-		*/
 	}
 	return 0;
 }
